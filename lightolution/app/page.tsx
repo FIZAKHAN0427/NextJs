@@ -1,9 +1,17 @@
-import Image from "next/image";
+import Head from 'next/head';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <main>
-      Home
-    </main>
+    <div>
+      <Head>
+        <title>Lightolution</title>
+        <meta name="description" content="Giving You More For Less" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main>
+      </main>
+    </div>
   );
-}
+};
+
+export default Home;
